@@ -1,0 +1,215 @@
+body{
+    margin: 0;/* No tiene margen con la pagina */
+    font-family: Bebas Neue;
+    background-image: url(1366_2000.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /* height: 500px;
+    max-width: 100%; */
+}
+
+.title{
+    background-color: black;
+    color: #eee;
+
+}
+
+
+h1{
+    margin: 0; /* No tiene margen  */
+    padding: 25px;
+    text-align: left;
+    text-transform: uppercase;
+    font-size: 60px;
+}
+
+h2{
+    margin: 0;
+    padding: 10px;
+    text-align: left;
+    font-size: 40px;
+    font-style: italic;
+}
+
+h3{
+    font-size: 30px;
+    
+}
+
+p{
+    margin: 0;
+    padding: 5px;
+    text-align: left;
+}
+
+.logo{
+    width: 280px;
+    border-radius: 50%;
+}
+.container{
+    text-align: center;
+    margin-top: 80px;
+}
+
+.card-1{
+    background-color: #e1e1e1;
+    text-align: center;
+    width: 300px; /* Tamaño de la caja  */
+    margin: auto; /* Centrar caja */
+    margin-top: 50px; /* Margen de la parte de arriba */
+    padding: 20px 10px;
+    box-shadow: 0 0 25px 0 rgba(255, 255, 255, 0.6);
+    border-radius: 10px;
+    border-left: 10px solid black;
+    display: inline-block;
+    margin: 30px;
+}
+
+
+.card-2{
+    background-color: #e1e1e1;
+    text-align: center;
+    width: 300px; /* Tamaño de la caja  */
+    margin: auto; /* Centrar caja */
+    margin-top: 50px; /* Margen de la parte de arriba */
+    padding: 20px 10px;
+    box-shadow: 0 0 25px 0 rgba(255, 255, 255, 0.6);
+    border-radius: 10px;
+    border-left: 10px solid black;
+    display: inline-block;
+    margin: 30px;
+}
+
+
+.card-3{
+    background-color: #e1e1e1;
+    text-align: center;
+    width: 300px; /* Tamaño de la caja  */
+    margin: auto; /* Centrar caja */
+    margin-top: 50px; /* Margen de la parte de arriba */
+    padding: 20px 10px;
+    box-shadow: 0 0 25px 0 rgba(255, 255, 255, 0.6);
+    border-radius: 10px;
+    border-left: 10px solid black;
+    display: inline-block;
+    margin: 30px;
+}
+
+
+.card-4{
+    background-color: #e1e1e1;
+    text-align: center;
+    width: 300px; /* Tamaño de la caja  */
+    margin: auto; /* Centrar caja */
+    margin-top: 50px; /* Margen de la parte de arriba */
+    padding: 20px 10px;
+    box-shadow: 0 0 25px 0 rgba(255, 255, 255, 0.6); /* sombra */
+    border-radius: 10px;  /* tamaño del borde */
+    border-left: 10px solid black; /* Tamaño y borde arriba */
+    display: inline-block;
+    margin: 30px;
+}
+
+
+/* Boton de internet */
+/* From Uiverse.io by ryota1231 */ 
+.animated-button {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    padding: 16px 36px;
+    border: 4px solid;
+    border-color: transparent;
+    font-size: 16px;
+    border-radius: 100px;
+    font-weight: 600;
+    color: #000000;
+    box-shadow: 0 0 0 2px #ffffff;
+    cursor: pointer;
+    overflow: hidden;
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+    margin-top: 50px;
+    margin: auto;
+  }
+  a{
+    text-decoration: none;
+  }
+  
+  .animated-button svg {
+    position: absolute;
+    width: 24px;
+    fill: black;
+    z-index: 9;
+    transition: all 0.8s cubic-bezier(0.23, 1, 0.32, 1);
+  }
+  
+  .animated-button .arr-1 {
+    right: 16px;
+  }
+  
+  .animated-button .arr-2 {
+    left: -25%;
+  }
+  
+  .animated-button .circle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 20px;
+    height: 20px;
+    background-color: #bfbfbf;
+    border-radius: 50%;
+    opacity: 0;
+    transition: all 0.8s cubic-bezier(0.23, 1, 0.32, 1);
+  }
+  
+  .animated-button .text {
+    position: relative;
+    z-index: 1;
+    transform: translateX(-12px);
+    transition: all 0.8s cubic-bezier(0.23, 1, 0.32, 1);
+  }
+  
+  .animated-button:hover {
+    box-shadow: 0 0 0 12px transparent;
+    color: #000000;
+    border-radius: 12px;
+  }
+  
+  .animated-button:hover .arr-1 {
+    right: -25%;
+  }
+  
+  .animated-button:hover .arr-2 {
+    left: 16px;
+  }
+  
+  .animated-button:hover .text {
+    transform: translateX(12px);
+  }
+  
+  .animated-button:hover svg {
+    fill: #000000;
+  }
+  
+  .animated-button:active {
+    scale: 0.95;
+    box-shadow: 0 0 0 4px greenyellow;
+  }
+  
+  .animated-button:hover .circle {
+    width: 220px;
+    height: 220px;
+    opacity: 1;
+  }
+  
+
+
+
+
+
+
+
